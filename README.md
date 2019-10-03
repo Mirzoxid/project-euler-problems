@@ -1,2 +1,2 @@
-# project-eular-problems
-Project Eular
+# project-euler-problems
+Project Euler
