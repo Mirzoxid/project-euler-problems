@@ -59,6 +59,8 @@ fun chechPyth(num: Int): Boolean {
 
 fun getResult(pythList: MutableList<MutableList<Int>>, summ: Int): Long {
     var r = 1L
+    print(pythList)
+    println()
     for (it in pythList) {
         var s = 0
         for (i in it) {
@@ -66,7 +68,7 @@ fun getResult(pythList: MutableList<MutableList<Int>>, summ: Int): Long {
         }
         if (s == summ) {
             for (i in it) {
-                r*=i
+                r*=sqrt(i * 1.0).toInt()
             }
         }
     }
