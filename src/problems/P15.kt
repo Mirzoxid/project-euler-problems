@@ -9,10 +9,10 @@ import kotlin.math.*
  * */
 
 fun main() {
-    val mainNum = 20
-    println(getVayCount(mainNum))
+    println(getVayCount(20))
 }
 
 fun getVayCount(mainNum: Int): Int {
+    val array = Array(5){}
     return 1
 }
