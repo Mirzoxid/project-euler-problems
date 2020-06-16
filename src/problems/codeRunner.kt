@@ -1,5 +1,5 @@
 package problems
 
 fun main() {
-    print(problem48())
+    print(solution35())
 }
